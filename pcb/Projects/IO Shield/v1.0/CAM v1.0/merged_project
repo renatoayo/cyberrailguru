@@ -1,0 +1,3 @@
+(define-layer! 1 (cons 'filename "merged_cam.sol")(cons 'color #(65280 32512 29440)))
+(define-layer! 0 (cons 'filename "merged_cam.cmp")(cons 'color #(29440 29440 56832)))
+(define-layer! -1 (cons 'filename "/Users/tmsasala/Documents/Personal/Eagle/IO Shield v1.0/Merged_CAM")(cons 'color #(0 0 0)))

@@ -1,0 +1,57 @@
+[Eagle]
+Version="05 03 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/Eagle/lbr/74xx-us.lbr"
+UsedLibrary="/Applications/Eagle/lbr/con-ptr500.lbr"
+UsedLibrary="/Applications/Eagle/lbr/crystal.lbr"
+UsedLibrary="/Applications/Eagle/lbr/diode.lbr"
+UsedLibrary="/Applications/Eagle/lbr/frames.lbr"
+UsedLibrary="/Applications/Eagle/lbr/heatsink.lbr"
+UsedLibrary="/Applications/Eagle/lbr/holes.lbr"
+UsedLibrary="/Applications/Eagle/lbr/jumper.lbr"
+UsedLibrary="/Applications/Eagle/lbr/led.lbr"
+UsedLibrary="/Applications/Eagle/lbr/linear-technology.lbr"
+UsedLibrary="/Applications/Eagle/lbr/linear.lbr"
+UsedLibrary="/Applications/Eagle/lbr/microchip.lbr"
+UsedLibrary="/Applications/Eagle/lbr/optocoupler.lbr"
+UsedLibrary="/Applications/Eagle/lbr/pinhead.lbr"
+UsedLibrary="/Applications/Eagle/lbr/pot.lbr"
+UsedLibrary="/Applications/Eagle/lbr/rcl.lbr"
+UsedLibrary="/Applications/Eagle/lbr/rectifier.lbr"
+UsedLibrary="/Applications/Eagle/lbr/relay.lbr"
+UsedLibrary="/Applications/Eagle/lbr/resistor-bourns.lbr"
+UsedLibrary="/Applications/Eagle/lbr/resistor-dil.lbr"
+UsedLibrary="/Applications/Eagle/lbr/resistor-net.lbr"
+UsedLibrary="/Applications/Eagle/lbr/resistor.lbr"
+UsedLibrary="/Applications/Eagle/lbr/special-drill.lbr"
+UsedLibrary="/Applications/Eagle/lbr/special-pad.lbr"
+UsedLibrary="/Applications/Eagle/lbr/special.lbr"
+UsedLibrary="/Applications/Eagle/lbr/supply1.lbr"
+UsedLibrary="/Applications/Eagle/lbr/supply2.lbr"
+UsedLibrary="/Applications/Eagle/lbr/switch-dil.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-fet.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-neu-to92.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-npn.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-pnp.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-power.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor-small-signal.lbr"
+UsedLibrary="/Applications/Eagle/lbr/transistor.lbr"
+UsedLibrary="/Applications/Eagle/lbr/triac.lbr"
+UsedLibrary="/Applications/Eagle/lbr/v-reg.lbr"
+UsedLibrary="/Applications/Eagle/lbr/wirepad.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="62 22 1078 551"
+State=2
+Number=0
+
+[Desktop]
+Screen="1440 900"
+Window="Win_1"
