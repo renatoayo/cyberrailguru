@@ -1,0 +1,71 @@
+Partlist
+
+Exported from generic_control_board.sch at 8/10/2008 11:39:29 AM
+
+EAGLE Version 5.1.0 Copyright (c) 1988-2008 CadSoft
+
+Part     Value          Device       Package  Library        Sheet
+
+IC1      PIC16F628A3P   PIC16F628A3P DIL18    microchip      1
+K1                      LCA110       DIL06    relay          1
+K2                      LCA110       DIL06    relay          1
+K3                      LCA110       DIL06    relay          1
+K4                      LCA110       DIL06    relay          1
+LED1     STATUS         LED3MM       LED3MM   led            1
+LED2     POWER          LED3MM       LED3MM   led            1
+Q1       2N4401         2N4401       TO92     transistor-npn 1
+Q2       2N4401         2N4401       TO92     transistor-npn 1
+Q3       2N4401         2N4401       TO92     transistor-npn 1
+Q4       2N4401         2N4401       TO92     transistor-npn 1
+Q5       2N4401         2N4401       TO92     transistor-npn 1
+Q6       2N4401         2N4401       TO92     transistor-npn 1
+Q7       2N4401         2N4401       TO92     transistor-npn 1
+Q8       2N4401         2N4401       TO92     transistor-npn 1
+Q9       2N4401         2N4401       TO92     transistor-npn 1
+Q10      2N4401         2N4401       TO92     transistor-npn 1
+Q11      2N4401         2N4401       TO92     transistor-npn 1
+Q12      2N4401         2N4401       TO92     transistor-npn 1
+Q13      2N4401         2N4401       TO92     transistor-npn 1
+Q14      2N4401         2N4401       TO92     transistor-npn 1
+Q15      2N4401         2N4401       TO92     transistor-npn 1
+Q16      2N4401         2N4401       TO92     transistor-npn 1
+R1       1K             R-US_0207/2V 0207/2V  rcl            1
+R2       1K             R-US_0207/2V 0207/2V  rcl            1
+R3       1K             R-US_0207/2V 0207/2V  rcl            1
+R4       1K             R-US_0207/2V 0207/2V  rcl            1
+R5       1K             R-US_0207/2V 0207/2V  rcl            1
+R6       1K             R-US_0207/2V 0207/2V  rcl            1
+R7       1K             R-US_0207/2V 0207/2V  rcl            1
+R8       1K             R-US_0207/2V 0207/2V  rcl            1
+R9       1K             R-US_0207/2V 0207/2V  rcl            1
+R10      1K             R-US_0207/2V 0207/2V  rcl            1
+R11      1K             R-US_0207/2V 0207/2V  rcl            1
+R12      1K             R-US_0207/2V 0207/2V  rcl            1
+R13      1K             R-US_0207/2V 0207/2V  rcl            1
+R14      1K             R-US_0207/2V 0207/2V  rcl            1
+R15      1K             R-US_0207/2V 0207/2V  rcl            1
+R16      1K             R-US_0207/2V 0207/2V  rcl            1
+R17      220            R-US_0207/2V 0207/2V  rcl            1
+R18      220            R-US_0207/2V 0207/2V  rcl            1
+R19      220            R-US_0207/2V 0207/2V  rcl            1
+R20      220            R-US_0207/2V 0207/2V  rcl            1
+R21      220            R-US_0207/2V 0207/2V  rcl            1
+R22      220            R-US_0207/2V 0207/2V  rcl            1
+S1                      DIP04YL      DIP04YL  switch-dil     1
+X1                      AK500/2      AK500/2  con-ptr500     1
+X2                      AK500/2      AK500/2  con-ptr500     1
+X3                      AK500/2      AK500/2  con-ptr500     1
+X4                      AK500/2      AK500/2  con-ptr500     1
+X5                      AK500/2      AK500/2  con-ptr500     1
+X6                      AK500/2      AK500/2  con-ptr500     1
+X7                      AK500/2      AK500/2  con-ptr500     1
+X8                      AK500/2      AK500/2  con-ptr500     1
+X9                      AK500/2      AK500/2  con-ptr500     1
+X10                     AK500/2      AK500/2  con-ptr500     1
+X11                     AK500/2      AK500/2  con-ptr500     1
+X12                     AK500/2      AK500/2  con-ptr500     1
+X13                     AK500/2      AK500/2  con-ptr500     1
+X14                     AK500/2      AK500/2  con-ptr500     1
+X15                     AK500/2      AK500/2  con-ptr500     1
+X16                     AK500/2      AK500/2  con-ptr500     1
+X17                     AK500/2      AK500/2  con-ptr500     1
