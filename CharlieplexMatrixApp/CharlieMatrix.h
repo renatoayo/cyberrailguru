@@ -36,6 +36,7 @@ public:
 	void setPattern();
 	void enable(uint8_t flag);
 	void clearBuffer();
+	void set(uint8_t x, uint8_t y, boolean value );
 
 private:
 	uint8_t convertRow(uint8_t row, uint8_t rowPattern);
@@ -61,6 +62,7 @@ uint8_t* getPatternBuffer();
 void setPattern();
 void enable(uint8_t flag);
 void clearBuffer();
+void set(uint8_t x, uint8_t y, boolean value );
 
 
 extern CharlieMatrix CharlieMatrixPort;

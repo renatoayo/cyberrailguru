@@ -39,39 +39,17 @@ int main(void)
 
 	CharlieMatrixPort.initialize();
 
-
-
-//	// Initialize variables
-//	currentBufferIndex = 1;
-//	currentRowIndex = 0;
-//
-//	for(i=0; i<NUMBER_OF_ROWS; i++)
-//	{
-//		patternBuffer[i] = 0x00;
-//		portPatternBuffer[0][i] = 0x00;
-//		portPatternBuffer[1][i] = 0x00;
-//		portDirectionBuffer[0][i] = 0x00;
-//		portDirectionBuffer[1][i] = 0x00;
-//	}
-
 	buf = CharlieMatrixPort.getPatternBuffer();
 
-//	buf[0] = B00000001;
-//	buf[1] = B00000010;
-//	buf[2] = B00000100;
-//	buf[3] = B00001000;
-//	buf[4] = B00010000;
-//	buf[5] = B00100000;
-
-	buf[0] = B00000000;
-	buf[1] = B00000000;
-	buf[2] = B00000000;
-	buf[3] = B00000000;
-	buf[4] = B00000000;
-	buf[5] = B00000000;
-
-
-	CharlieMatrixPort.setPattern();
+//	buf[0] = B00000000;
+//	buf[1] = B00000000;
+//	buf[2] = B00000000;
+//	buf[3] = B00000000;
+//	buf[4] = B00000000;
+//	buf[5] = B00000000;
+//
+//
+//	CharlieMatrixPort.setPattern();
 
 	CharlieMatrixPort.enable(true);
 
@@ -116,29 +94,22 @@ int main(void)
 		temp = 0x00;
 	}
 
+	CharlieMatrixPort.clear();
+	CharlieMatrixPort.clearBuffer();
 
+	for(j=0; j<NUMBER_OF_ROWS; j++)
+	{
+		for(i=0; i< 5; i++)
+		{
+			CharlieMatrixPort.set(i, j, true);
+			delay(100);
+			CharlieMatrixPort.set(i, j, false);
+		}
+	}
 
-//	drivePattern();
-//
-//	while(1)
-//	{
-//		for(i=0; i<NUMBER_OF_ROWS; i++)
-//		{
-//			currentRowIndex = i;
-//			driveRow( );
-//			delay(1);
-////			if( j == 1 )
-////			{
-////				Serial.print("ROW: ");
-////				Serial.print( i, HEX );
-////				Serial.print( " PATTERN: ");
-////				Serial.println( data, HEX );
-////			}
-//		}
-//		j = 0;
-//
-//	}
-
+	CharlieMatrixPort.enable(false);
+	CharlieMatrixPort.clear();
+	CharlieMatrixPort.clearBuffer();
 
 #ifdef __DEBUG
 	Serial.println("PROGRAM END");

@@ -19,8 +19,6 @@ static uint8_t portDirectionBuffer[2][NUMBER_OF_ROWS];
 static uint8_t currentRowIndex;
 static uint8_t currentBufferIndex;
 
-
-
 /**
  * Constructor
  */
@@ -63,6 +61,8 @@ void CharlieMatrix::initialize()
 		portDirectionBuffer[1][i] = 0x00;
 	}
 
+	setPattern();
+
 	// Initialize timer (500us interval)
 	FlexiTimer2::set(1, CharlieMatrix::driveRow );
 
@@ -97,6 +97,20 @@ void CharlieMatrix::enable(uint8_t flag)
 	enableOutput = flag;
 }
 
+void CharlieMatrix::set(uint8_t x, uint8_t y, boolean value )
+{
+	if( value == true )
+	{
+		patternBuffer[y] = patternBuffer[y] | (0x01 << x);
+	}
+	else
+	{
+		patternBuffer[y] = patternBuffer[y] & ~(0x01 << x);
+	}
+	setPattern();
+}
+
+
 /**
  * Reads patternBuffer, computes drivable pattern,
  * computes port mask, and switches buffer.
@@ -106,7 +120,7 @@ void CharlieMatrix::setPattern()
 	uint8_t i;
 	uint8_t bufferIndex;
 
-	// Compute next buffer - if current=0, 1; else 1
+	// Compute next buffer - if current=0, 1; else 0
 	bufferIndex = (currentBufferIndex+1) & 0x01;
 
 	// Compute patterns to drive
@@ -173,7 +187,7 @@ void CharlieMatrix::driveRow()
 
 /**
  * Converts a straight 8-bit pattern into a "driveable" pattern
- * according to abstract schematic
+ * according to schematic
  *
  * returns pattern to be driven
  */
