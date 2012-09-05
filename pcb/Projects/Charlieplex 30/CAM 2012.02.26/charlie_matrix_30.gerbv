@@ -1,0 +1,7 @@
+(define-layer! 5 (cons 'filename "charlie_matrix_30.GBS")(cons 'color #(29952 61952 26368)))
+(define-layer! 4 (cons 'filename "charlie_matrix_30.GTS")(cons 'color #(49408 0 57344)))
+(define-layer! 3 (cons 'filename "charlie_matrix_30.GBL")(cons 'color #(65280 32512 29440)))
+(define-layer! 2 (cons 'filename "charlie_matrix_30.GTL")(cons 'color #(29440 29440 56832)))
+(define-layer! 1 (cons 'filename "charlie_matrix_30.GBO")(cons 'color #(0 49920 49920)))
+(define-layer! 0 (cons 'filename "charlie_matrix_30.GTO")(cons 'color #(54528 64768 13056)))
+(define-layer! -1 (cons 'filename "/Users/tom/Documents/Electronics/PCB/Projects/Charlieplex 30/CAM 2012.02.26")(cons 'color #(0 0 0)))
