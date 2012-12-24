@@ -1,0 +1,15 @@
+EAGLE Version 4.16r2 Copyright (c) 1988-2006 CadSoft
+
+Electrical Rule Check for C:/Program Files/EAGLE-4.16r2/projects/Master Controller/master_controller.sch at  4/14/2008 08:15:05p
+
+WARNING: Sheet 1/1: POWER Pin IC1 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC1 VDD connected to VCC
+WARNING: Sheet 1/1: POWER Pin IC2 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC2 VDD connected to VCC
+WARNING: Sheet 1/1: POWER Pin IC4 VSS connected to GND
+WARNING: Sheet 1/1: POWER Pin IC4 VDD connected to VCC
+
+Board and schematic are consistent
+
+    0 errors
+    6 warnings
