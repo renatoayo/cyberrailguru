@@ -17,6 +17,7 @@ uint8_t patternBuffer[NUMBER_OF_ROWS];
 static uint8_t portPatternBuffer[2][NUMBER_OF_ROWS];
 static uint8_t portDirectionBuffer[2][NUMBER_OF_ROWS];
 static uint8_t currentRowIndex;
+static uint8_t currentColIndex;
 static uint8_t currentBufferIndex;
 
 /**
@@ -51,6 +52,7 @@ void CharlieMatrix::initialize()
 	enableOutput = false;
 	currentBufferIndex = 1;
 	currentRowIndex = 0;
+	currentColIndex = 0;
 
 	for(i=0; i<NUMBER_OF_ROWS; i++)
 	{
@@ -126,20 +128,20 @@ void CharlieMatrix::setPattern()
 	// Compute patterns to drive
 	for(i=0; i<NUMBER_OF_ROWS; i++)
 	{
-		// Computer HW agnostic pattern
+		// Compute HW agnostic pattern
 		portPatternBuffer[bufferIndex][i] = convertRow( i, patternBuffer[i]);
 		portDirectionBuffer[bufferIndex][i] = portPatternBuffer[bufferIndex][i] | (0x01 << i); // all the ones and the row
 
-#ifdef __DEBUG
-	Serial.print("ROW");
-	Serial.print( i, HEX );
-	Serial.print(": PATTERN: ");
-	Serial.print( patternBuffer[i], HEX );
-	Serial.print(" PORT: ");
-	Serial.print( portPatternBuffer[bufferIndex][i], HEX );
-	Serial.print(" DIR: ");
-	Serial.println( portDirectionBuffer[bufferIndex][i], HEX );
-#endif
+//#ifdef __DEBUG
+//	Serial.print("ROW");
+//	Serial.print( i, HEX );
+//	Serial.print(": PATTERN: ");
+//	Serial.print( patternBuffer[i], HEX );
+//	Serial.print(" PORT: ");
+//	Serial.print( portPatternBuffer[bufferIndex][i], HEX );
+//	Serial.print(" DIR: ");
+//	Serial.println( portDirectionBuffer[bufferIndex][i], HEX );
+//#endif
 
 	} // end for
 
@@ -184,6 +186,48 @@ void CharlieMatrix::driveRow()
 		}
 	}
 }
+
+/**
+ * Drives the pattern onto the port
+ *
+ * NOTE: This routine is specific to the hardware
+ */
+void CharlieMatrix::driveRow2()
+{
+	if( enableOutput == true )
+	{
+		// Clear direction
+		PORTD &= 0x03; // Set all to low
+		DDRD &= 0x03; // clear direction
+
+		DDRD = DDRD | ( portDirectionBuffer[currentBufferIndex][currentRowIndex] << 2 );
+		PORTD = PORTD | ( (portPatternBuffer[currentBufferIndex][currentRowIndex] & (1<<currentColIndex) << 2) );
+
+//#ifdef __DEBUG
+//	Serial.print("COL");
+//	Serial.print( currentColIndex, HEX );
+//	Serial.print(": ROW: ");
+//	Serial.print( currentRowIndex, HEX );
+//	Serial.print(": DDRD: ");
+//	Serial.print( DDRD, HEX );
+//	Serial.print(": PORTD: ");
+//	Serial.println( PORTD, HEX );
+//#endif
+
+
+		currentColIndex++;
+		if( currentColIndex >= NUMBER_OF_COLS)
+		{
+			currentRowIndex++;
+			currentColIndex = 0;
+			if( currentRowIndex >= NUMBER_OF_ROWS )
+			{
+				currentRowIndex = 0;
+			}
+		}
+	}
+}
+
 
 /**
  * Converts a straight 8-bit pattern into a "driveable" pattern

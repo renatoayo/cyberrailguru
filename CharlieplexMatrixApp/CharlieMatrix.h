@@ -8,7 +8,8 @@
 #ifndef CHARLIEMATRIX_H_
 #define CHARLIEMATRIX_H_
 
-#include <WProgram.h>
+#include <Arduino.h>
+//#include <WProgram.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
@@ -17,8 +18,9 @@
 
 // Defines the number of pins used
 #define NUMBER_OF_PINS	6
-#define NUMBER_OF_ROWS NUMBER_OF_PINS
 #define NUMBER_OF_LEDS	(NUMBER_OF_PINS*(NUMBER_OF_PINS -1) )
+#define NUMBER_OF_ROWS	6
+#define NUMBER_OF_COLS 	5
 
 #define LED_PIN		13
 
@@ -41,6 +43,7 @@ public:
 private:
 	uint8_t convertRow(uint8_t row, uint8_t rowPattern);
 	static void driveRow();
+	static void driveRow2();
 
 };
 
