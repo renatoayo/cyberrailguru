@@ -1,0 +1,104 @@
+Partlist
+
+Exported from Bus Controller.sch at 8/29/2008 8:38:47 AM
+
+EAGLE Version 5.1.0 Copyright (c) 1988-2008 CadSoft
+
+Part     Value          Device              Package  Library             Sheet
+
+IC1      74LS374N       74LS374N            DIL20    74xx-us             1
+IC2      74LS374N       74LS374N            DIL20    74xx-us             1
+IC3      PIC16F628P     PIC16F628P          DIL18    microchip           1
+IC4      74LS138N       74LS138N            DIL16    74xx-eu             1
+IC5      74LS244N       74LS244N            DIL20    74xx-eu             1
+IC6      74LS374N       74LS374N            DIL20    74xx-us             1
+Q1       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q2       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q3       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q4       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q5       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q6       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q7       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q8       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q9       2N4401         2N4401              TO92-CBE transistor-npn      1
+Q10      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q11      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q12      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q13      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q14      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q15      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q16      2N4401         2N4401              TO92-CBE transistor-npn      1
+Q17                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q18                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q19                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q20                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q21                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q22                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q23                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+Q24                     2N4403-PNP-TO92-EBC TO92-EBC transistor-neu-to92 1
+R1       1K             R-US_0207/2V        0207/2V  resistor            1
+R2       1K             R-US_0207/2V        0207/2V  resistor            1
+R3       1K             R-US_0207/2V        0207/2V  resistor            1
+R4       1K             R-US_0207/2V        0207/2V  resistor            1
+R5       1K             R-US_0207/2V        0207/2V  resistor            1
+R6       1K             R-US_0207/2V        0207/2V  resistor            1
+R7       1K             R-US_0207/2V        0207/2V  resistor            1
+R8       1K             R-US_0207/2V        0207/2V  resistor            1
+R9       220            R-US_0207/2V        0207/2V  resistor            1
+R10      220            R-US_0207/2V        0207/2V  resistor            1
+R11      220            R-US_0207/2V        0207/2V  resistor            1
+R12      220            R-US_0207/2V        0207/2V  resistor            1
+R13      220            R-US_0207/2V        0207/2V  resistor            1
+R14      220            R-US_0207/2V        0207/2V  resistor            1
+R15      220            R-US_0207/2V        0207/2V  resistor            1
+R16      220            R-US_0207/2V        0207/2V  resistor            1
+R17      1K             R-US_0207/2V        0207/2V  resistor            1
+R18      1K             R-US_0207/2V        0207/2V  resistor            1
+R19      1K             R-US_0207/2V        0207/2V  resistor            1
+R20      1K             R-US_0207/2V        0207/2V  resistor            1
+R21      1K             R-US_0207/2V        0207/2V  resistor            1
+R22      1K             R-US_0207/2V        0207/2V  resistor            1
+R23                     R-US_0207/2V        0207/2V  resistor            1
+R24      1K             R-US_0207/2V        0207/2V  resistor            1
+R25      220            R-US_0207/2V        0207/2V  resistor            1
+R26      220            R-US_0207/2V        0207/2V  resistor            1
+R27      220            R-US_0207/2V        0207/2V  resistor            1
+R28      220            R-US_0207/2V        0207/2V  resistor            1
+R29      220            R-US_0207/2V        0207/2V  resistor            1
+R30      220            R-US_0207/2V        0207/2V  resistor            1
+R31      220            R-US_0207/2V        0207/2V  resistor            1
+R32      220            R-US_0207/2V        0207/2V  resistor            1
+R33      1K             R-US_0207/2V        0207/2V  resistor            1
+R34      1K             R-US_0207/2V        0207/2V  resistor            1
+R35      1K             R-US_0207/2V        0207/2V  resistor            1
+R36      1K             R-US_0207/2V        0207/2V  resistor            1
+R37      1K             R-US_0207/2V        0207/2V  resistor            1
+R38                     R-US_0207/2V        0207/2V  resistor            1
+R39      1K             R-US_0207/2V        0207/2V  resistor            1
+R40      1K             R-US_0207/2V        0207/2V  resistor            1
+R49      220            R-US_0207/2V        0207/2V  resistor            1
+R50      220            R-US_0207/2V        0207/2V  resistor            1
+R51      220            R-US_0207/2V        0207/2V  resistor            1
+R52      220            R-US_0207/2V        0207/2V  resistor            1
+R53      220            R-US_0207/2V        0207/2V  resistor            1
+R54      220            R-US_0207/2V        0207/2V  resistor            1
+R55      220            R-US_0207/2V        0207/2V  resistor            1
+R56      220            R-US_0207/2V        0207/2V  resistor            1
+RN1      4.7K           G08R                SIL9     resistor-sil        1
+X1                      AK500/2             AK500/2  con-ptr500          1
+X2                      AK500/2             AK500/2  con-ptr500          1
+X3                      AK500/2             AK500/2  con-ptr500          1
+X4                      AK500/2             AK500/2  con-ptr500          1
+X5                      AK500/2             AK500/2  con-ptr500          1
+X6                      AK500/2             AK500/2  con-ptr500          1
+X7                      AK500/2             AK500/2  con-ptr500          1
+X8                      AK500/2             AK500/2  con-ptr500          1
+X9                      AK500/2             AK500/2  con-ptr500          1
+X10                     AK500/2             AK500/2  con-ptr500          1
+X11                     AK500/2             AK500/2  con-ptr500          1
+X12                     AK500/2             AK500/2  con-ptr500          1
+X13                     AK500/2             AK500/2  con-ptr500          1
+X14                     AK500/2             AK500/2  con-ptr500          1
+X15                     AK500/2             AK500/2  con-ptr500          1
+X16                     AK500/2             AK500/2  con-ptr500          1
+X17                     AK500/2             AK500/2  con-ptr500          1
