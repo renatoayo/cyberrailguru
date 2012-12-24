@@ -91,56 +91,85 @@ int main(void)
 
 	buf = CharlieMatrixPort.getPatternBuffer();
 
-//	buf[0] = B00000000;
+//	buf[0] = B11111111;
 //	buf[1] = B00000000;
 //	buf[2] = B00000000;
 //	buf[3] = B00000000;
 //	buf[4] = B00000000;
 //	buf[5] = B00000000;
-//
-//
 //	CharlieMatrixPort.setPattern();
 
 	CharlieMatrixPort.enable(true);
 
+
 //	scrollCharacterLeft( c2p('A'), c2p('B'), 250 );
+
+//	while(1)
+//	{
+//		scrollStringLeft( text, 150);
+//	}
+//
+//	while(1);
+//
+//	temp = 0;
+//	for(j=0; j<37; j++)
+//	{
+//		for(i=0; i<6; i++)
+//		{
+//			buf[i] = alphas[temp+i];
+//		}
+//		CharlieMatrixPort.setPattern();
+//		delay(250);
+//		temp++;
+//	}
+//
+//
+//	while(1);
+//
+//	writeString( text, 750 );
+
+
+
+//	for(j=0; j<36; j++)
+//	{
+//		for(i=0; i<6; i++)
+//		{
+//			buf[i] = alpha[j][i];
+//		}
+//		CharlieMatrixPort.setPattern();
+//		delay(100);
+//	}
 
 	while(1)
 	{
-		scrollStringLeft( text, 150);
-	}
-
-	while(1);
-
-	temp = 0;
-	for(j=0; j<37; j++)
-	{
-		for(i=0; i<6; i++)
+		for(i=0; i<NUMBER_OF_COLS; i++)
 		{
-			buf[i] = alphas[temp+i];
+			CharlieMatrixPort.set(i,0,true);
+			delay(500);
 		}
-		CharlieMatrixPort.setPattern();
-		delay(250);
-		temp++;
+		CharlieMatrixPort.clear();
+		CharlieMatrixPort.clearBuffer();
+
+//
+//		buf[0] = B11111111;
+//		buf[1] = B00000000;
+//		buf[2] = B00000000;
+//		buf[3] = B00000000;
+//		buf[4] = B00000000;
+//		buf[5] = B00000000;
+//		CharlieMatrixPort.setPattern();
+//		delay(500);
+//
+//		buf[0] = B00010001;
+//		buf[1] = B00010001;
+//		buf[2] = B00010001;
+//		buf[3] = B00010001;
+//		buf[4] = B00010001;
+//		buf[5] = B00010001;
+//		CharlieMatrixPort.setPattern();
+//		delay(500);
+
 	}
-
-
-	while(1);
-
-	writeString( text, 750 );
-
-
-
-	for(j=0; j<36; j++)
-	{
-		for(i=0; i<6; i++)
-		{
-			buf[i] = alpha[j][i];
-		}
-		CharlieMatrixPort.setPattern();
-		delay(100);
-	}
-
 
 	temp = 0x01;
 
