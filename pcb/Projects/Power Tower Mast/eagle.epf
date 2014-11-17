@@ -29,11 +29,21 @@ UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Adafruit-Eagle-Library
 UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Seeed/Logo.lbr"
 
 [Win_1]
+Type="Text Editor"
+Loc="360 248 859 747"
+State=2
+Number=1
+File="PowerTower/layout.cfg"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Control Panel"
-Loc="246 23 1108 602"
+Loc="79 34 1024 761"
 State=2
 Number=0
 
 [Desktop]
 Screen="1440 900"
 Window="Win_1"
+Window="Win_2"
