@@ -584,13 +584,20 @@ A3 Larger Frame</description>
 <part name="LED18" library="CyberRailGuru" deviceset="LED" device="0805"/>
 <part name="LED17" library="CyberRailGuru" deviceset="LED" device="0805"/>
 <part name="LED16" library="CyberRailGuru" deviceset="LED" device="0805"/>
-<part name="TP7" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP1" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP2" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP3" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP4" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP5" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
-<part name="TP6" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VIN" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO1" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO2" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO3" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO4" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO5" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO6" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VIN1" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO7" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO8" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO9" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO10" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO11" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
+<part name="VO12" library="CyberRailGuru" deviceset="TEST_POINT" device="PAD1-20"/>
 </parts>
 <sheets>
 <sheet>
@@ -616,13 +623,62 @@ A3 Larger Frame</description>
 <instance part="LED18" gate="G$1" x="101.6" y="149.86" rot="R90"/>
 <instance part="LED17" gate="G$1" x="91.44" y="149.86" rot="R90"/>
 <instance part="LED16" gate="G$1" x="81.28" y="149.86" rot="R90"/>
-<instance part="TP7" gate="G$1" x="68.58" y="142.24" rot="R180"/>
-<instance part="TP1" gate="G$1" x="116.84" y="200.66" rot="R270"/>
-<instance part="TP2" gate="G$1" x="116.84" y="190.5" rot="R270"/>
-<instance part="TP3" gate="G$1" x="116.84" y="180.34" rot="R270"/>
-<instance part="TP4" gate="G$1" x="116.84" y="170.18" rot="R270"/>
-<instance part="TP5" gate="G$1" x="116.84" y="160.02" rot="R270"/>
-<instance part="TP6" gate="G$1" x="116.84" y="149.86" rot="R270"/>
+<instance part="VIN" gate="G$1" x="68.58" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.39" y="140.97" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="67.31" y="143.51" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VO1" gate="G$1" x="116.84" y="200.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="201.93" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="199.39" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO2" gate="G$1" x="116.84" y="190.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="191.77" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="189.23" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO3" gate="G$1" x="116.84" y="180.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="181.61" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="179.07" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO4" gate="G$1" x="116.84" y="170.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="171.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="168.91" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO5" gate="G$1" x="116.84" y="160.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="161.29" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="158.75" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO6" gate="G$1" x="116.84" y="149.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.11" y="151.13" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="148.59" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VIN1" gate="G$1" x="66.04" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.31" y="140.97" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="64.77" y="143.51" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VO7" gate="G$1" x="116.84" y="203.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="204.47" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="201.93" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO8" gate="G$1" x="116.84" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="194.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="191.77" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO9" gate="G$1" x="116.84" y="182.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="184.15" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="181.61" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO10" gate="G$1" x="116.84" y="172.72" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="173.99" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="171.45" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO11" gate="G$1" x="116.84" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="163.83" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="161.29" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="VO12" gate="G$1" x="116.84" y="152.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.65" y="153.67" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="115.57" y="151.13" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -641,11 +697,16 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="200.66" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT14" class="0">
+<net name="VOUT1" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="VO1" gate="G$1" pin="TP"/>
+<pinref part="VO7" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="203.2" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="203.2" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
+<junction x="111.76" y="200.66"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -662,11 +723,16 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT15" class="0">
+<net name="VOUT2" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="VO2" gate="G$1" pin="TP"/>
+<pinref part="VO8" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="193.04" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<junction x="111.76" y="190.5"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -683,11 +749,16 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="180.34" x2="86.36" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT16" class="0">
+<net name="VOUT3" class="0">
 <segment>
 <pinref part="LED9" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="180.34" x2="114.3" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="180.34" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="VO3" gate="G$1" pin="TP"/>
+<pinref part="VO9" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="180.34" x2="114.3" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="182.88" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
+<junction x="111.76" y="180.34"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -704,11 +775,16 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT17" class="0">
+<net name="VOUT4" class="0">
 <segment>
 <pinref part="LED12" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="VO4" gate="G$1" pin="TP"/>
+<pinref part="VO10" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="172.72" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<junction x="111.76" y="170.18"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -725,11 +801,16 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT18" class="0">
+<net name="VOUT5" class="0">
 <segment>
 <pinref part="LED15" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="VO5" gate="G$1" pin="TP"/>
+<pinref part="VO11" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="162.56" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="160.02"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -746,14 +827,19 @@ A3 Larger Frame</description>
 <wire x1="88.9" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VOUT19" class="0">
+<net name="VOUT6" class="0">
 <segment>
 <pinref part="LED18" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="VO6" gate="G$1" pin="TP"/>
+<pinref part="VO12" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="152.4" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="152.4" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
+<junction x="111.76" y="149.86"/>
 </segment>
 </net>
-<net name="VIN3" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="200.66" x2="68.58" y2="200.66" width="0.1524" layer="91"/>
@@ -762,8 +848,9 @@ A3 Larger Frame</description>
 <wire x1="68.58" y1="180.34" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="170.18" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="160.02" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="149.86" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="LED16" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="147.32" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="149.86" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="160.02" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
@@ -778,7 +865,11 @@ A3 Larger Frame</description>
 <junction x="68.58" y="170.18"/>
 <junction x="68.58" y="180.34"/>
 <junction x="68.58" y="190.5"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
+<pinref part="VIN" gate="G$1" pin="TP"/>
+<pinref part="VIN1" gate="G$1" pin="TP"/>
+<wire x1="66.04" y1="144.78" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<junction x="68.58" y="147.32"/>
 </segment>
 </net>
 </nets>
