@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -114,14 +114,12 @@
 <wire x1="0.635" y1="0.635" x2="5.08" y2="0.635" width="0.254" layer="21"/>
 <wire x1="5.08" y1="0.635" x2="5.08" y2="6.35" width="0.254" layer="21"/>
 <wire x1="5.08" y1="6.35" x2="12.065" y2="6.35" width="0.254" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="0.635" y2="13.335" width="0.254" layer="21"/>
-<wire x1="0.635" y1="13.335" x2="0.635" y2="20.955" width="0.254" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="20.955" width="0.254" layer="21"/>
 <wire x1="0.635" y1="20.955" x2="11.43" y2="20.955" width="0.254" layer="21"/>
 <circle x="8.255" y="13.335" radius="3.175" width="0.254" layer="21"/>
 <wire x1="15.875" y1="10.795" x2="12.065" y2="6.35" width="0.254" layer="21" curve="-67.380135"/>
 <wire x1="11.43" y1="20.955" x2="15.875" y2="15.24" width="0.254" layer="21" curve="-67.380135"/>
-<wire x1="15.875" y1="15.24" x2="15.875" y2="13.335" width="0.254" layer="21"/>
-<wire x1="15.875" y1="13.335" x2="15.875" y2="10.795" width="0.254" layer="21"/>
+<wire x1="15.875" y1="15.24" x2="15.875" y2="10.795" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="CyberRailGuru">
@@ -362,104 +360,107 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="LED3" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="6.985" smashed="yes">
-<attribute name="NAME" x="1.74625" y="7.62" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="4.92125" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED2" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="4.7625" smashed="yes">
-<attribute name="NAME" x="1.74625" y="5.3975" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="2.69875" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED1" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="2.54" smashed="yes">
-<attribute name="NAME" x="1.74625" y="3.4925" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="0.47625" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED6" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="14.9225" smashed="yes">
-<attribute name="NAME" x="1.74625" y="15.24" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="12.85875" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED5" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="12.7" smashed="yes">
-<attribute name="NAME" x="1.74625" y="13.0175" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="10.63625" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED4" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="10.4775" smashed="yes">
-<attribute name="NAME" x="1.74625" y="10.795" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="8.41375" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED9" library="CyberRailGuru" package="LED_0805" value="" x="6.6675" y="19.20875" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.985" y="20.32" size="1.016" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="4.60375" y="16.98625" size="1.016" layer="27" ratio="15"/>
 </element>
 <element name="LED8" library="CyberRailGuru" package="LED_0805" value="" x="4.445" y="19.20875" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.92125" y="20.47875" size="1.016" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="2.38125" y="16.98625" size="1.016" layer="27" ratio="15"/>
 </element>
 <element name="LED7" library="CyberRailGuru" package="LED_0805" value="" x="2.54" y="18.415" smashed="yes">
-<attribute name="NAME" x="1.5875" y="18.89125" size="1.016" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="4.7625" y="16.35125" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="LED12" library="CyberRailGuru" package="LED_0805" value="" x="13.81125" y="16.35125" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.9225" y="16.03375" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.58875" y="18.415" size="1.016" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="LED11" library="CyberRailGuru" package="LED_0805" value="" x="12.54125" y="18.25625" smashed="yes" rot="R225">
-<attribute name="NAME" x="13.67643125" y="18.964984375" size="1.016" layer="25" ratio="15" rot="R45"/>
 <attribute name="VALUE" x="9.510415625" y="18.143996875" size="1.016" layer="27" ratio="15" rot="R315"/>
 </element>
 <element name="LED10" library="CyberRailGuru" package="LED_0805" value="" x="10.16" y="19.20875" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.57814375" y="20.068946875" size="1.016" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="8.096246875" y="16.986253125" size="1.016" layer="27" ratio="15"/>
 </element>
 <element name="LED15" library="CyberRailGuru" package="LED_0805" value="" x="12.22375" y="9.2075" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.46844375" y="8.82424375" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="10.00125625" y="11.271240625" size="1.016" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="LED14" library="CyberRailGuru" package="LED_0805" value="" x="13.81125" y="10.63625" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.9225" y="10.31875" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.58875" y="12.7" size="1.016" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="LED13" library="CyberRailGuru" package="LED_0805" value="" x="13.81125" y="12.85875" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.08125" y="12.3825" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.58875" y="14.9225" size="1.016" layer="27" ratio="15" rot="R270"/>
 </element>
 <element name="LED18" library="CyberRailGuru" package="LED_0805" value="" x="5.08" y="8.41375" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.60375" y="7.46125" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="7.14375" y="10.63625" size="1.016" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="LED17" library="CyberRailGuru" package="LED_0805" value="" x="7.3025" y="8.41375" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.14375" y="7.46125" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="9.36625" y="10.63625" size="1.016" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="LED16" library="CyberRailGuru" package="LED_0805" value="" x="9.525" y="8.41375" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.04875" y="7.14375" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="11.58875" y="10.63625" size="1.016" layer="27" ratio="15" rot="R180"/>
 </element>
 <element name="VIN" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="1.42875" smashed="yes" rot="R180">
-<attribute name="NAME" x="0.5715" y="1.87325" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="0.508" y="6.12775" size="1.27" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="3.1115" y="3.46075" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="VO1" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="8.09625" smashed="yes" rot="R180">
-<attribute name="NAME" x="1.2065" y="9.49325" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="3.1115" y="10.12825" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="VO1" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="7.3025" smashed="yes" rot="R180">
+<attribute name="NAME" x="0.508" y="12.319" size="1.27" layer="25" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="3.1115" y="9.3345" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="VO2" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="16.03375" smashed="yes" rot="R180">
-<attribute name="NAME" x="0.5715" y="16.47825" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="3.1115" y="18.06575" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="VO2" library="CyberRailGuru" package="P1-20" value="" x="1.42875" y="15.39875" smashed="yes" rot="R180">
+<attribute name="NAME" x="0.508" y="20.41525" size="1.27" layer="25" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="2.95275" y="17.43075" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="VO3" library="CyberRailGuru" package="P1-20" value="" x="7.77875" y="20.16125" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.85825" y="21.49475" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="9.30275" y="22.19325" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="VO3" library="CyberRailGuru" package="P1-20" value="" x="6.985" y="20.16125" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.98525" y="18.38325" size="1.27" layer="25" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="8.509" y="22.19325" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="VO4" library="CyberRailGuru" package="P1-20" value="" x="14.9225" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.9385" y="14.478" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="12.827" y="14.0335" size="1.27" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="16.4465" y="17.272" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="VO5" library="CyberRailGuru" package="P1-20" value="" x="12.22375" y="7.3025" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.84275" y="9.017" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="13.74775" y="9.3345" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="VO5" library="CyberRailGuru" package="P1-20" value="" x="12.7" y="7.14375" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.3665" y="7.58825" size="1.27" layer="25" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="14.224" y="9.17575" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="VO6" library="CyberRailGuru" package="P1-20" value="" x="3.96875" y="9.36625" smashed="yes" rot="R180">
-<attribute name="NAME" x="3.71475" y="10.19175" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="4.73075" y="10.06475" size="1.27" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="5.49275" y="11.39825" size="1.27" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="VIN1" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="2.2225" smashed="yes">
+<attribute name="VALUE" x="0.0635" y="0.1905" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO7" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="8.255" smashed="yes">
+<attribute name="VALUE" x="0.0635" y="6.223" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO8" library="CyberRailGuru" package="P1-20" value="" x="1.42875" y="16.35125" smashed="yes">
+<attribute name="VALUE" x="-0.09525" y="14.31925" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO9" library="CyberRailGuru" package="P1-20" value="" x="7.9375" y="20.16125" smashed="yes">
+<attribute name="VALUE" x="6.4135" y="18.12925" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO10" library="CyberRailGuru" package="P1-20" value="" x="14.9225" y="16.1925" smashed="yes">
+<attribute name="VALUE" x="13.3985" y="14.1605" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO11" library="CyberRailGuru" package="P1-20" value="" x="11.7475" y="7.14375" smashed="yes">
+<attribute name="VALUE" x="10.2235" y="5.11175" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="VO12" library="CyberRailGuru" package="P1-20" value="" x="3.96875" y="10.31875" smashed="yes">
+<attribute name="VALUE" x="2.44475" y="8.28675" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -471,13 +472,15 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="LED2" pad="A"/>
 <contactref element="LED1" pad="C"/>
-<wire x1="2.54" y1="3.59" x2="2.54" y2="3.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="3.59" x2="2.54" y2="3.7125" width="0.1524" layer="1"/>
 </signal>
 <signal name="VOUT1">
 <contactref element="LED3" pad="C"/>
 <contactref element="VO1" pad="TP"/>
-<wire x1="1.5875" y1="8.09625" x2="2.47875" y2="8.09625" width="0.1524" layer="1"/>
-<wire x1="2.47875" y1="8.09625" x2="2.54" y2="8.035" width="0.1524" layer="1"/>
+<contactref element="VO7" pad="TP"/>
+<wire x1="2.54" y1="8.035" x2="1.8075" y2="8.035" width="0.1524" layer="1"/>
+<wire x1="1.8075" y1="8.035" x2="1.5875" y2="8.255" width="0.1524" layer="1"/>
+<wire x1="1.5875" y1="8.255" x2="1.5875" y2="7.3025" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED6" pad="A"/>
@@ -492,8 +495,10 @@ design rules under a new name.</description>
 <signal name="VOUT2">
 <contactref element="LED6" pad="C"/>
 <contactref element="VO2" pad="TP"/>
-<wire x1="2.54" y1="15.9725" x2="1.64875" y2="15.9725" width="0.1524" layer="1"/>
-<wire x1="1.64875" y1="15.9725" x2="1.5875" y2="16.03375" width="0.1524" layer="1"/>
+<contactref element="VO8" pad="TP"/>
+<wire x1="2.54" y1="15.9725" x2="1.8075" y2="15.9725" width="0.1524" layer="1"/>
+<wire x1="1.8075" y1="15.9725" x2="1.42875" y2="16.35125" width="0.1524" layer="1"/>
+<wire x1="1.42875" y1="16.35125" x2="1.42875" y2="15.39875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="LED9" pad="A"/>
@@ -509,8 +514,10 @@ design rules under a new name.</description>
 <signal name="VOUT3">
 <contactref element="LED9" pad="C"/>
 <contactref element="VO3" pad="TP"/>
-<wire x1="7.7175" y1="19.20875" x2="7.7175" y2="20.1" width="0.1524" layer="1"/>
-<wire x1="7.7175" y1="20.1" x2="7.77875" y2="20.16125" width="0.1524" layer="1"/>
+<contactref element="VO9" pad="TP"/>
+<wire x1="7.7175" y1="19.20875" x2="7.7175" y2="19.94125" width="0.1524" layer="1"/>
+<wire x1="7.7175" y1="19.94125" x2="7.9375" y2="20.16125" width="0.1524" layer="1"/>
+<wire x1="6.985" y1="20.16125" x2="7.9375" y2="20.16125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="LED12" pad="A"/>
@@ -527,8 +534,10 @@ design rules under a new name.</description>
 <signal name="VOUT4">
 <contactref element="LED12" pad="C"/>
 <contactref element="VO4" pad="TP"/>
+<contactref element="VO10" pad="TP"/>
 <wire x1="13.81125" y1="15.30125" x2="14.86125" y2="15.30125" width="0.1524" layer="1"/>
 <wire x1="14.86125" y1="15.30125" x2="14.9225" y2="15.24" width="0.1524" layer="1"/>
+<wire x1="14.9225" y1="15.24" x2="14.9225" y2="16.1925" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="LED15" pad="A"/>
@@ -539,12 +548,15 @@ design rules under a new name.</description>
 <signal name="N$18">
 <contactref element="LED14" pad="A"/>
 <contactref element="LED13" pad="C"/>
-<wire x1="13.81125" y1="11.68625" x2="13.81125" y2="11.80875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.81125" y1="11.68625" x2="13.81125" y2="11.80875" width="0.1524" layer="1"/>
 </signal>
 <signal name="VOUT5">
 <contactref element="LED15" pad="C"/>
 <contactref element="VO5" pad="TP"/>
-<wire x1="12.22375" y1="8.1575" x2="12.22375" y2="7.3025" width="0.1524" layer="1"/>
+<contactref element="VO11" pad="TP"/>
+<wire x1="12.22375" y1="8.1575" x2="12.22375" y2="7.62" width="0.1524" layer="1"/>
+<wire x1="12.22375" y1="7.62" x2="12.7" y2="7.14375" width="0.1524" layer="1"/>
+<wire x1="12.7" y1="7.14375" x2="11.7475" y2="7.14375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="LED18" pad="A"/>
@@ -559,8 +571,10 @@ design rules under a new name.</description>
 <signal name="VOUT6">
 <contactref element="LED18" pad="C"/>
 <contactref element="VO6" pad="TP"/>
+<contactref element="VO12" pad="TP"/>
 <wire x1="4.03" y1="8.41375" x2="4.03" y2="9.305" width="0.1524" layer="1"/>
 <wire x1="4.03" y1="9.305" x2="3.96875" y2="9.36625" width="0.1524" layer="1"/>
+<wire x1="3.96875" y1="9.36625" x2="3.96875" y2="10.31875" width="0.1524" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="LED1" pad="A"/>
@@ -597,15 +611,18 @@ design rules under a new name.</description>
 <wire x1="9.11" y1="18.635" x2="8.255" y2="17.78" width="0.1524" layer="1"/>
 <wire x1="8.255" y1="17.78" x2="3.81" y2="17.78" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="6.35" x2="5.08" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="9.8425" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="9.8425" x2="4.445" y2="10.4775" width="0.1524" layer="1"/>
-<wire x1="4.445" y1="10.4775" x2="3.4925" y2="10.4775" width="0.1524" layer="1"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="10.4775" width="0.1524" layer="1"/>
 <wire x1="2.54" y1="9.4275" x2="2.54" y2="9.525" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="9.525" x2="3.4925" y2="10.4775" width="0.1524" layer="1"/>
 <wire x1="10.575" y1="8.41375" x2="10.575" y2="7.7175" width="0.1524" layer="1"/>
 <wire x1="10.575" y1="7.7175" x2="10.16" y2="7.3025" width="0.1524" layer="1"/>
 <wire x1="10.16" y1="7.3025" x2="5.3975" y2="7.3025" width="0.1524" layer="1"/>
 <wire x1="5.3975" y1="7.3025" x2="5.08" y2="7.62" width="0.1524" layer="1"/>
+<contactref element="VIN1" pad="TP"/>
+<wire x1="5.08" y1="10.4775" x2="4.445" y2="11.1125" width="0.1524" layer="1"/>
+<wire x1="4.445" y1="11.1125" x2="3.65125" y2="11.1125" width="0.1524" layer="1"/>
+<wire x1="3.65125" y1="11.1125" x2="2.54" y2="10.00125" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="10.00125" x2="2.54" y2="9.4275" width="0.1524" layer="1"/>
+<wire x1="1.5875" y1="1.42875" x2="1.5875" y2="2.2225" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
