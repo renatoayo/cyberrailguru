@@ -29,20 +29,11 @@ UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Adafruit-Eagle-Library
 UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Seeed/Logo.lbr"
 
 [Win_1]
-Type="Text Editor"
-Loc="360 248 859 747"
-State=2
-Number=1
-File="PowerTower/layout.cfg"
-CursorPos="0 0"
-Font="Courier,11,-1,5,50,0,0,0,0,0"
-
-[Win_2]
 Type="Schematic Editor"
 Loc="360 248 959 647"
 State=0
-Number=3
-File="w/w.sch"
+Number=2
+File="d/d.sch"
 View="-8.28315 -5.82337 396.025 266.173"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -84,23 +75,13 @@ PadsSameType=0
 Layer=91
 Sheet="1"
 
-[Win_3]
+[Win_2]
 Type="Control Panel"
-Loc="51 31 1041 760"
+Loc="92 34 1082 763"
 State=2
 Number=0
-
-[Win_4]
-Type="CAM Processor"
-Loc="411 163 1027 668"
-State=2
-Number=4
-File="w/w.brd"
-Job="/Users/tsasala/Development/pcb/Eagle/Eagle Design Rules and CAM/EagleCAM.cam"
 
 [Desktop]
 Screen="1440 900"
 Window="Win_1"
 Window="Win_2"
-Window="Win_3"
-Window="Win_4"
