@@ -109,7 +109,7 @@
 <wire x1="16.51" y1="0" x2="16.51" y2="21.59" width="0" layer="20"/>
 <wire x1="16.51" y1="21.59" x2="0" y2="21.59" width="0" layer="20"/>
 <wire x1="0" y1="21.59" x2="0" y2="0" width="0" layer="20"/>
-<text x="0.635" y="0.635" size="20.32" layer="201" font="fixed" ratio="22" distance="27">P</text>
+<text x="0.635" y="0.635" size="20.32" layer="201" font="fixed" ratio="15" distance="27">P</text>
 <wire x1="10.795" y1="18.415" x2="11.43" y2="18.415" width="0.1016" layer="201"/>
 <wire x1="0.635" y1="0.635" x2="5.08" y2="0.635" width="0.254" layer="21"/>
 <wire x1="5.08" y1="0.635" x2="5.08" y2="6.35" width="0.254" layer="21"/>
