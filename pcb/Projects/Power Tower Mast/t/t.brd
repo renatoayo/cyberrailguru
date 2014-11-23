@@ -105,11 +105,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="16.576646875" y2="-0.000003125" width="0" layer="20"/>
-<wire x1="16.576646875" y1="-0.000003125" x2="16.576646875" y2="21.527365625" width="0" layer="20"/>
-<wire x1="16.576646875" y1="21.527365625" x2="0" y2="21.52736875" width="0" layer="20"/>
-<wire x1="0" y1="21.52736875" x2="0" y2="0" width="0" layer="20"/>
-<text x="0.635" y="0.635" size="20.32" layer="201" font="fixed" ratio="22" distance="27">T</text>
+<wire x1="0" y1="0" x2="16.51" y2="0" width="0" layer="20"/>
+<wire x1="16.51" y1="0" x2="16.51" y2="21.59" width="0" layer="20"/>
+<wire x1="16.51" y1="21.59" x2="0" y2="21.59" width="0" layer="20"/>
+<wire x1="0" y1="21.59" x2="0" y2="0" width="0" layer="20"/>
+<text x="0.635" y="0.635" size="20.32" layer="201" font="fixed" ratio="15" distance="27">T</text>
 <wire x1="0.635" y1="20.955" x2="0.635" y2="16.51" width="0.254" layer="21"/>
 <wire x1="0.635" y1="16.51" x2="5.715" y2="16.51" width="0.254" layer="21"/>
 <wire x1="5.715" y1="16.51" x2="5.715" y2="0.635" width="0.254" layer="21"/>
