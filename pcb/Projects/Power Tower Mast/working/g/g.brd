@@ -446,11 +446,11 @@ design rules under a new name.</description>
 <element name="LED16" library="CyberRailGuru" package="LED_0805" value="" x="9.8425" y="10.795" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.62" y="12.85875" size="1.016" layer="27" ratio="15" rot="R270"/>
 </element>
-<element name="LED21" library="CyberRailGuru" package="LED_0805" value="" x="12.67816875" y="3.675915625" smashed="yes" rot="R45">
-<attribute name="VALUE" x="15.709" y="3.788171875" size="1.016" layer="27" ratio="15" rot="R135"/>
+<element name="LED21" library="CyberRailGuru" package="LED_0805" value="" x="12.67816875" y="3.517165625" smashed="yes" rot="R45">
+<attribute name="VALUE" x="15.709" y="3.629421875" size="1.016" layer="27" ratio="15" rot="R135"/>
 </element>
-<element name="LED20" library="CyberRailGuru" package="LED_0805" value="" x="13.94873125" y="6.0268" smashed="yes" rot="R90">
-<attribute name="VALUE" x="16.01248125" y="8.2493" size="1.016" layer="27" ratio="15" rot="R180"/>
+<element name="LED20" library="CyberRailGuru" package="LED_0805" value="" x="13.691603125" y="5.698378125" smashed="yes" rot="R75">
+<attribute name="VALUE" x="16.260259375" y="7.311009375" size="1.016" layer="27" ratio="15" rot="R165"/>
 </element>
 <element name="LED19" library="CyberRailGuru" package="LED_0805" value="" x="13.97" y="7.9375" smashed="yes" rot="R90">
 <attribute name="VALUE" x="16.03375" y="10.16" size="1.016" layer="27" ratio="15" rot="R180"/>
@@ -483,9 +483,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.3825" y="12.54125" size="1.27" layer="25" ratio="15"/>
 <attribute name="VALUE" x="11.65225" y="8.28675" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="VO7" library="CyberRailGuru" package="P1-20" value="" x="11.58875" y="5.23875" smashed="yes">
-<attribute name="NAME" x="10.135953125" y="4.241346875" size="1.27" layer="25" ratio="15" rot="R45"/>
-<attribute name="VALUE" x="10.06475" y="3.20675" size="1.27" layer="27" ratio="10"/>
+<element name="VO7" library="CyberRailGuru" package="P1-20" value="" x="11.43" y="5.08" smashed="yes">
+<attribute name="NAME" x="9.977203125" y="4.400096875" size="1.27" layer="25" ratio="15" rot="R45"/>
+<attribute name="VALUE" x="9.906" y="3.048" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VIN1" library="CyberRailGuru" package="P1-20" value="" x="4.7625" y="2.54" smashed="yes">
 <attribute name="VALUE" x="3.2385" y="0.508" size="1.27" layer="27" ratio="10"/>
@@ -508,8 +508,8 @@ design rules under a new name.</description>
 <element name="VO14" library="CyberRailGuru" package="P1-20" value="" x="14.605" y="10.31875" smashed="yes">
 <attribute name="VALUE" x="13.081" y="8.28675" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="VO15" library="CyberRailGuru" package="P1-20" value="" x="10.795" y="4.60375" smashed="yes">
-<attribute name="VALUE" x="9.271" y="2.57175" size="1.27" layer="27" ratio="10"/>
+<element name="VO15" library="CyberRailGuru" package="P1-20" value="" x="10.63625" y="4.60375" smashed="yes">
+<attribute name="VALUE" x="9.11225" y="2.57175" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LED22" library="CyberRailGuru" package="LED_0805" value="" x="10.63625" y="2.2225" smashed="yes">
 <attribute name="VALUE" x="12.85875" y="0.15875" size="1.016" layer="27" ratio="15" rot="R90"/>
@@ -521,7 +521,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.04875" y="0.15875" size="1.016" layer="27" ratio="15" rot="R90"/>
 </element>
 <element name="VO8" library="CyberRailGuru" package="P1-20" value="" x="7.46125" y="4.1275" smashed="yes">
-<attribute name="NAME" x="5.7785" y="4.15925" size="1.27" layer="25" ratio="15"/>
+<attribute name="NAME" x="5.7785" y="4.47675" size="1.27" layer="25" ratio="15"/>
 <attribute name="VALUE" x="5.93725" y="2.0955" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO16" library="CyberRailGuru" package="P1-20" value="" x="6.50875" y="4.1275" smashed="yes">
@@ -689,25 +689,24 @@ design rules under a new name.</description>
 <signal name="N$27">
 <contactref element="LED21" pad="A"/>
 <contactref element="LED20" pad="C"/>
-<wire x1="12.89873125" y1="6.0268" x2="12.89873125" y2="5.99251875" width="0.1524" layer="1"/>
-<wire x1="12.89873125" y1="5.99251875" x2="13.81125" y2="5.08" width="0.1524" layer="1"/>
-<wire x1="13.81125" y1="5.08" x2="13.81125" y2="3.324075" width="0.1524" layer="1"/>
-<wire x1="13.81125" y1="3.324075" x2="13.420628125" y2="2.933453125" width="0.1524" layer="1"/>
+<wire x1="13.420628125" y1="2.774703125" x2="13.420628125" y2="5.2268875" width="0.1524" layer="1"/>
+<wire x1="13.420628125" y1="5.2268875" x2="12.677378125" y2="5.9701375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="LED20" pad="A"/>
 <contactref element="LED19" pad="C"/>
 <wire x1="12.92" y1="7.9375" x2="13.08803125" y2="7.9375" width="0.1524" layer="1"/>
-<wire x1="13.08803125" y1="7.9375" x2="14.99873125" y2="6.0268" width="0.1524" layer="1"/>
+<wire x1="14.705825" y1="5.426615625" x2="14.705825" y2="6.151675" width="0.1524" layer="1"/>
+<wire x1="14.705825" y1="6.151675" x2="12.92" y2="7.9375" width="0.1524" layer="1"/>
 </signal>
 <signal name="VOUT7">
 <contactref element="LED21" pad="C"/>
 <contactref element="VO7" pad="TP"/>
 <contactref element="VO15" pad="TP"/>
-<wire x1="11.93570625" y1="4.418375" x2="11.93570625" y2="4.89179375" width="0.1524" layer="1"/>
-<wire x1="11.93570625" y1="4.89179375" x2="11.58875" y2="5.23875" width="0.1524" layer="1"/>
-<wire x1="11.58875" y1="5.23875" x2="11.43" y2="5.23875" width="0.1524" layer="1"/>
-<wire x1="11.43" y1="5.23875" x2="10.795" y2="4.60375" width="0.1524" layer="1"/>
+<wire x1="11.93570625" y1="4.259625" x2="11.93570625" y2="4.57429375" width="0.1524" layer="1"/>
+<wire x1="11.93570625" y1="4.57429375" x2="11.43" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="11.43" y1="5.08" x2="11.1125" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="11.1125" y1="5.08" x2="10.63625" y2="4.60375" width="0.1524" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="LED19" pad="A"/>
