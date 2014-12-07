@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5171,11 +5171,11 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
 <wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
 <wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<wire x1="-0.635" y1="1.905" x2="0.9525" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="0.9525" y1="1.905" x2="0.9525" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="0.9525" y1="-1.905" x2="-0.9525" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-0.9525" y1="-1.905" x2="-0.9525" y2="1.5875" width="0.1016" layer="21"/>
-<wire x1="-0.9525" y1="1.5875" x2="-0.635" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="1.905" x2="0.79375" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="0.79375" y1="1.905" x2="0.79375" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="0.79375" y1="-1.905" x2="-0.79375" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-0.79375" y1="-1.905" x2="-0.79375" y2="1.74625" width="0.1016" layer="21"/>
+<wire x1="-0.79375" y1="1.74625" x2="-0.635" y2="1.905" width="0.1016" layer="21"/>
 <circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
