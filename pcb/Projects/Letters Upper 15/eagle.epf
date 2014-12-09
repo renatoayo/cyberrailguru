@@ -30,7 +30,7 @@ UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Seeed/Logo.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="38 100 1160 608"
+Loc="230 34 1406 636"
 State=2
 Number=0
 
