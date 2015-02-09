@@ -13,13 +13,13 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -105,36 +105,32 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="16.51" y2="0" width="0" layer="20"/>
-<wire x1="16.51" y1="0" x2="16.51" y2="21.59" width="0" layer="20"/>
-<wire x1="16.51" y1="21.59" x2="0" y2="21.59" width="0" layer="20"/>
-<wire x1="0" y1="21.59" x2="0" y2="0" width="0" layer="20"/>
 <text x="0.635" y="0.635" size="20.32" layer="201" font="fixed" ratio="22" distance="27">W</text>
-<wire x1="2.486325" y1="20.955" x2="3.28395" y2="20.955" width="0.254" layer="21"/>
-<wire x1="3.28395" y1="20.955" x2="5.08" y2="19.15895" width="0.254" layer="21" curve="-90"/>
-<wire x1="5.08" y1="19.15895" x2="5.08" y2="10.477646875" width="0.254" layer="21"/>
-<wire x1="5.08" y1="10.477646875" x2="6.53939375" y2="9.87314375" width="0.254" layer="21" curve="134.999852"/>
-<wire x1="6.53939375" y1="9.87314375" x2="7.918240625" y2="11.251990625" width="0.254" layer="21"/>
-<wire x1="7.918240625" y1="11.251990625" x2="8.591759375" y2="11.251990625" width="0.254" layer="21" curve="-90"/>
-<wire x1="8.591759375" y1="11.251990625" x2="10.153878125" y2="9.689871875" width="0.254" layer="21"/>
-<wire x1="2.486325" y1="20.955" x2="0.635" y2="19.103675" width="0.254" layer="21" curve="90"/>
-<wire x1="0.635" y1="19.103675" x2="0.635" y2="2.667990625" width="0.254" layer="21"/>
-<wire x1="0.635" y1="2.667990625" x2="2.667990625" y2="0.635" width="0.254" layer="21" curve="90"/>
-<wire x1="2.667990625" y1="0.635" x2="3.1524375" y2="0.635" width="0.254" layer="21"/>
-<wire x1="3.1524375" y1="0.635" x2="4.27496875" y2="1.09996875" width="0.254" layer="21" curve="45"/>
-<wire x1="4.27496875" y1="1.09996875" x2="8.03049375" y2="4.85549375" width="0.254" layer="21"/>
-<wire x1="8.03049375" y1="4.85549375" x2="8.18924375" y2="4.92125" width="0.254" layer="21" curve="-45"/>
-<wire x1="8.18924375" y1="4.92125" x2="8.301496875" y2="4.874753125" width="0.254" layer="21" curve="-45"/>
-<wire x1="8.301496875" y1="4.874753125" x2="12.1781" y2="0.99815" width="0.254" layer="21"/>
-<wire x1="12.1781" y1="0.99815" x2="13.054821875" y2="0.635" width="0.254" layer="21" curve="44.999856"/>
-<wire x1="13.054821875" y1="0.635" x2="13.752621875" y2="0.635" width="0.254" layer="21"/>
-<wire x1="13.752621875" y1="0.635" x2="15.71625" y2="2.598628125" width="0.254" layer="21" curve="90"/>
-<wire x1="15.71625" y1="2.598628125" x2="15.71625" y2="18.8192375" width="0.254" layer="21"/>
-<wire x1="15.71625" y1="18.8192375" x2="13.5804875" y2="20.955" width="0.254" layer="21" curve="90"/>
-<wire x1="13.5804875" y1="20.955" x2="13.4070125" y2="20.955" width="0.254" layer="21"/>
-<wire x1="13.4070125" y1="20.955" x2="11.27125" y2="18.8192375" width="0.254" layer="21" curve="90"/>
-<wire x1="10.153878125" y1="9.689871875" x2="11.27125" y2="10.1527" width="0.254" layer="21" curve="134.999726"/>
-<wire x1="11.27125" y1="10.1527" x2="11.27125" y2="18.8192375" width="0.254" layer="21"/>
+<wire x1="1.375075" y1="21.59" x2="3.7602" y2="21.59" width="0.254" layer="20"/>
+<wire x1="3.7602" y1="21.59" x2="5.08" y2="20.11145" width="0.254" layer="20" curve="-90"/>
+<wire x1="5.08" y1="20.11145" x2="5.08" y2="11.271396875" width="0.254" layer="20"/>
+<wire x1="5.08" y1="11.271396875" x2="6.53939375" y2="10.50814375" width="0.254" layer="20" curve="134.999852"/>
+<wire x1="6.53939375" y1="10.50814375" x2="7.918240625" y2="12.204490625" width="0.254" layer="20"/>
+<wire x1="7.918240625" y1="12.204490625" x2="8.591759375" y2="12.204490625" width="0.254" layer="20" curve="-90"/>
+<wire x1="8.591759375" y1="12.204490625" x2="9.995128125" y2="10.483621875" width="0.254" layer="20"/>
+<wire x1="1.375075" y1="21.59" x2="0" y2="20.214925" width="0.254" layer="20" curve="90"/>
+<wire x1="0" y1="20.214925" x2="0" y2="2.032990625" width="0.254" layer="20"/>
+<wire x1="0" y1="2.032990625" x2="1.874240625" y2="0" width="0.254" layer="20" curve="90"/>
+<wire x1="1.874240625" y1="0" x2="3.7874375" y2="0" width="0.254" layer="20"/>
+<wire x1="3.7874375" y1="0" x2="5.70371875" y2="1.09996875" width="0.254" layer="20" curve="45"/>
+<wire x1="5.70371875" y1="1.09996875" x2="8.03049375" y2="3.90299375" width="0.254" layer="20"/>
+<wire x1="8.03049375" y1="3.90299375" x2="8.34799375" y2="3.96875" width="0.254" layer="20" curve="-45"/>
+<wire x1="8.34799375" y1="3.96875" x2="8.460246875" y2="3.922253125" width="0.254" layer="20" curve="-45"/>
+<wire x1="8.460246875" y1="3.922253125" x2="10.9081" y2="0.99815" width="0.254" layer="20"/>
+<wire x1="10.9081" y1="0.99815" x2="12.578571875" y2="0" width="0.254" layer="20" curve="45"/>
+<wire x1="12.578571875" y1="0" x2="14.705121875" y2="0" width="0.254" layer="20"/>
+<wire x1="14.705121875" y1="0" x2="16.35125" y2="1.963628125" width="0.254" layer="20" curve="90"/>
+<wire x1="16.35125" y1="1.963628125" x2="16.35125" y2="20.0892375" width="0.254" layer="20"/>
+<wire x1="16.35125" y1="20.0892375" x2="15.0092375" y2="21.59" width="0.254" layer="20" curve="90"/>
+<wire x1="15.0092375" y1="21.59" x2="12.6132625" y2="21.59" width="0.254" layer="20"/>
+<wire x1="12.6132625" y1="21.59" x2="11.27125" y2="20.2479875" width="0.254" layer="20" curve="90"/>
+<wire x1="9.995128125" y1="10.483621875" x2="11.27125" y2="10.94645" width="0.254" layer="20" curve="134.999726"/>
+<wire x1="11.27125" y1="10.94645" x2="11.27125" y2="20.2479875" width="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="CyberRailGuru">
@@ -429,31 +425,31 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.58875" y="4.7625" size="1.016" layer="27" ratio="15"/>
 </element>
 <element name="VIN" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="18.89125" smashed="yes">
-<attribute name="NAME" x="5.11175" y="20.574" size="1.27" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="3.4925" y="18.0975" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="0.0635" y="16.85925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO1" library="CyberRailGuru" package="P1-20" value="" x="3.81" y="13.81125" smashed="yes">
-<attribute name="NAME" x="5.11175" y="16.4465" size="1.27" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="3.175" y="13.0175" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="2.286" y="11.77925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO2" library="CyberRailGuru" package="P1-20" value="" x="3.81" y="6.19125" smashed="yes">
-<attribute name="NAME" x="4.47675" y="9.93775" size="1.27" layer="25" ratio="15" rot="R270"/>
+<attribute name="NAME" x="3.175" y="5.3975" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="2.286" y="4.15925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO3" library="CyberRailGuru" package="P1-20" value="" x="5.08" y="2.38125" smashed="yes">
-<attribute name="NAME" x="5.625196875" y="0.590096875" size="1.27" layer="25" ratio="15" rot="R45"/>
+<attribute name="NAME" x="4.1275" y="2.2225" size="1.27" layer="26" ratio="15" rot="R45"/>
 <attribute name="VALUE" x="3.556" y="0.34925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO4" library="CyberRailGuru" package="P1-20" value="" x="8.89" y="4.92125" smashed="yes">
-<attribute name="NAME" x="8.004853125" y="3.47005" size="1.27" layer="25" ratio="15" rot="R315"/>
+<attribute name="NAME" x="7.9375" y="5.715" size="1.27" layer="26" ratio="15"/>
 <attribute name="VALUE" x="7.366" y="2.88925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO5" library="CyberRailGuru" package="P1-20" value="" x="14.76375" y="3.65125" smashed="yes">
-<attribute name="NAME" x="11.8745" y="6.25475" size="1.27" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="13.97" y="2.8575" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="13.23975" y="1.61925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO6" library="CyberRailGuru" package="P1-20" value="" x="14.76375" y="11.27125" smashed="yes">
-<attribute name="NAME" x="11.39825" y="10.69975" size="1.27" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="13.97" y="10.4775" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="13.23975" y="9.23925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VIN1" library="CyberRailGuru" package="P1-20" value="" x="1.5875" y="20.47875" smashed="yes">
@@ -487,7 +483,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.58875" y="17.4625" size="1.016" layer="27" ratio="15"/>
 </element>
 <element name="VO7" library="CyberRailGuru" package="P1-20" value="" x="14.76375" y="18.89125" smashed="yes">
-<attribute name="NAME" x="11.08075" y="17.04975" size="1.27" layer="25" ratio="15" rot="R90"/>
+<attribute name="NAME" x="13.97" y="17.78" size="1.27" layer="26" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="13.23975" y="16.85925" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="VO14" library="CyberRailGuru" package="P1-20" value="" x="14.76375" y="20.47875" smashed="yes">
