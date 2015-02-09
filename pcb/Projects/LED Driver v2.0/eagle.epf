@@ -1,0 +1,39 @@
+[Eagle]
+Version="07 01 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/CyberRailGuru.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/LilyPad-Wearables.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/LilyPad-Wearables.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Capacitors.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Displays.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-LED.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-PowerIC.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-RF.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Resistors.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Adafruit-Eagle-Library/adafruit.lbr"
+UsedLibrary="/Users/tsasala/Development/pcb/Eagle/Library/Seeed/Logo.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="91 27 1393 722"
+State=2
+Number=0
+
+[Desktop]
+Screen="1440 900"
+Window="Win_1"
