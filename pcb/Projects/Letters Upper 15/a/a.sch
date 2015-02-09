@@ -213,11 +213,11 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
 <wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
 <wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<wire x1="-0.635" y1="1.905" x2="0.9525" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="0.9525" y1="1.905" x2="0.9525" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="0.9525" y1="-1.905" x2="-0.9525" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-0.9525" y1="-1.905" x2="-0.9525" y2="1.5875" width="0.1016" layer="21"/>
-<wire x1="-0.9525" y1="1.5875" x2="-0.635" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-0.635" y1="1.905" x2="0.79375" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="0.79375" y1="1.905" x2="0.79375" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="0.79375" y1="-1.905" x2="-0.79375" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-0.79375" y1="-1.905" x2="-0.79375" y2="1.74625" width="0.1016" layer="21"/>
+<wire x1="-0.79375" y1="1.74625" x2="-0.635" y2="1.905" width="0.1016" layer="21"/>
 <circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
@@ -250,7 +250,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <package name="P1-20">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.4699" width="0.0762" layer="51"/>
-<pad name="TP" x="0" y="0" drill="0.5"/>
+<pad name="TP" x="0" y="0" drill="0.508"/>
 <text x="-1.524" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.524" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="0" y="0" radius="0.4699" width="0.0762" layer="52"/>
