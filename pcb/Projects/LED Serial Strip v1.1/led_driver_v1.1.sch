@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8721,6 +8721,16 @@ A3 Larger Frame</description>
 <wire x1="350.52" y1="35.56" x2="302.26" y2="35.56" width="0.4064" layer="97" style="shortdash"/>
 <wire x1="302.26" y1="35.56" x2="302.26" y2="68.58" width="0.4064" layer="97" style="shortdash"/>
 <text x="304.8" y="66.04" size="1.778" layer="97" font="vector" ratio="15" align="top-left">Decoupling</text>
+<text x="157.48" y="71.12" size="1.778" layer="91">PD4</text>
+<text x="157.48" y="68.58" size="1.778" layer="91">PD5</text>
+<text x="157.48" y="68.58" size="1.778" layer="91">PD5</text>
+<text x="157.48" y="66.04" size="1.778" layer="91">PD6</text>
+<text x="157.48" y="63.5" size="1.778" layer="91">PD7</text>
+<text x="157.48" y="60.96" size="1.778" layer="91">PB0</text>
+<text x="157.48" y="58.42" size="1.778" layer="91">PB1</text>
+<text x="157.48" y="55.88" size="1.778" layer="91">PB2</text>
+<text x="157.48" y="53.34" size="1.778" layer="91">PB3</text>
+<text x="157.48" y="50.8" size="1.778" layer="91">PB4</text>
 </plain>
 <instances>
 <instance part="U1" gate="&gt;NAME" x="68.58" y="205.74"/>
