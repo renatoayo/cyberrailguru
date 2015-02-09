@@ -1,0 +1,17 @@
+<openscam>
+  <!-- Note, all values are in mm regardless of 'units' option. -->
+  <!-- NC Files -->
+  <nc-files>
+    power_tower_cam.nc
+  </nc-files>
+
+  <!-- Renderer -->
+  <resolution v='0.256972'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='false'/>
+  <workpiece-max v='(100.739,105.279,0.4)'/>
+  <workpiece-min v='(0,0,0)'/>
+
+  <tool_table/>
+</openscam>

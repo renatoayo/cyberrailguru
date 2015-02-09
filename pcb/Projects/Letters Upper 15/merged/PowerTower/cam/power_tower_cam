@@ -1,0 +1,24 @@
+<openscam>
+  <!-- Note, all values are in mm regardless of 'units' option. -->
+  <!-- NC Files -->
+  <nc-files>
+    power_tower_cam.nc
+  </nc-files>
+
+  <!-- Project -->
+  <units v='INCH'/>
+
+  <!-- Renderer -->
+  <resolution v='0.29416'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='false'/>
+  <workpiece-max v='(100.739,105.279,0.6)'/>
+  <workpiece-min v='(0,0,0)'/>
+
+  <tool_table>
+    <tool length='25.4' number='1' radius='1.5' shape='CYLINDRICAL' units='MM'>
+      3mm
+    </tool>
+  </tool_table>
+</openscam>
