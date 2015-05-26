@@ -1,4 +1,5 @@
 (gerbv-file-version! "2.0A")
+(define-layer! 10 (cons 'filename "led_serial_strip_small_panel_v11.oln")(cons 'visible #t)(cons 'color #(65021 53970 52942)))
 (define-layer! 9 (cons 'filename "led_serial_strip_small_panel_v11.gbl")(cons 'visible #t)(cons 'color #(65021 53970 52942)))
 (define-layer! 8 (cons 'filename "led_serial_strip_small_panel_v11.gtl")(cons 'visible #t)(cons 'color #(65535 51914 57825)))
 (define-layer! 7 (cons 'filename "led_serial_strip_small_panel_v11.gml")(cons 'visible #t)(cons 'color #(61937 65535 47031)))
